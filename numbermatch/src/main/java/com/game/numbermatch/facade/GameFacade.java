@@ -2,11 +2,6 @@ package com.game.numbermatch.facade;
 
 import com.game.numbermatch.model.GameState;
 import com.game.numbermatch.service.GameService;
-
-/*
- DESIGN PATTERN: Facade
- واجهة بسيطة للـ Controller
- */
 public class GameFacade {
 
     private final GameService service = new GameService();

@@ -1,11 +1,6 @@
 package com.game.numbermatch.manager;
 
 import com.game.numbermatch.model.GameState;
-
-/*
- DESIGN PATTERN: Singleton
- نسخة واحدة فقط من اللعبة
- */
 public class GameManager {
 
     private static GameManager instance;

@@ -14,9 +14,6 @@ import com.game.numbermatch.strategy.MatchStrategy;
 import com.game.numbermatch.strategy.SameNumberStrategy;
 import com.game.numbermatch.strategy.SumTenStrategy;
 
-/*
- Service = منطق اللعبة كامل
- */
 public class GameService {
 
     private final GameManager manager = GameManager.getInstance();
