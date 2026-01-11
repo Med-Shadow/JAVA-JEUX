@@ -1,0 +1,18 @@
+package com.game.numbermatch.factory;
+
+import java.util.Random;
+
+import com.game.numbermatch.model.Cell;
+
+/*
+ DESIGN PATTERN: Factory Method
+ مسؤول فقط على إنشاء الخانات
+ */
+public class CellFactory {
+
+    private static final Random rand = new Random();
+
+    public static Cell createRandomCell() {
+        return new Cell(rand.nextInt(1,10) );
+    }
+}
