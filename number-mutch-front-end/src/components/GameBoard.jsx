@@ -51,7 +51,7 @@ export default function GameBoard() {
           <span>
             Best Score:{" "}
             <b className="text-slate-100">
-              {localStorage.getItem("bestScore")}
+              {localStorage.getItem("bestScore") || 0}
             </b>
           </span>
           <span>
